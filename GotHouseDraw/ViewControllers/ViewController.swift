@@ -11,7 +11,6 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var numberOfPlayers: UILabel!
     
-
     var numOfPlayers = 3
 
     

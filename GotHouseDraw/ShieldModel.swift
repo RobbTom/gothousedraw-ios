@@ -15,7 +15,7 @@ class ShieldModel {
         var generatedNumbers = [Int]()
         
         // Declare an empty array
-        var generatedCards = [Shield]()
+        var generatedShields = [Shield]()
         
         var shieldsNumber = 1
         
@@ -28,7 +28,7 @@ class ShieldModel {
             shield.imageName = "shield\(shieldsNumber)"
             
             // Add them to the array
-            generatedCards += [shield]
+            generatedShields += [shield]
             
             // Add this number to the list of generated numbers
             generatedNumbers.append(shieldsNumber)
@@ -41,10 +41,10 @@ class ShieldModel {
         }
         
         // Randomize the shiels within the array
-        generatedCards.shuffle()
+        generatedShields.shuffle()
         
         // Return the array
-        return generatedCards
+        return generatedShields
     }
     
 }

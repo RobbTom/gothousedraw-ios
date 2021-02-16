@@ -17,10 +17,10 @@ class ShieldCollectionViewCell: UICollectionViewCell {
     
     func configureCell(shield:Shield){
         
-        //Keep track of the card this cell represents
+        //Keep track of the shield this cell represents
         self.shield = shield
         
-        //Set the front image to the image that represents the card
+        //Set the front image to the image that represents the shield
         frontImageView.image = UIImage(named: shield.imageName)
         
         if shield.isFlipped == true{

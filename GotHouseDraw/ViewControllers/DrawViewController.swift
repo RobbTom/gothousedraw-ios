@@ -61,7 +61,7 @@ class DrawViewController: UIViewController, UICollectionViewDataSource, UICollec
         // Get a reference to the cell that was tapped
         let cell = collectionView.cellForItem(at: indexPath) as? ShieldCollectionViewCell
          
-        // Flip the card up
+        // Flip the shield up
         cell?.flipUp()
 
     }
