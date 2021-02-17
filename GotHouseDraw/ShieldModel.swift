@@ -33,8 +33,6 @@ class ShieldModel {
             // Add this number to the list of generated numbers
             generatedNumbers.append(shieldsNumber)
             
-            print(shieldsNumber)
-            
             //Next number
             shieldsNumber += 1
             
